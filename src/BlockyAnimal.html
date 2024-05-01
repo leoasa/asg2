@@ -46,17 +46,24 @@
     Please use a browser that supports "canvas"
     </canvas>
 
-    <p>
-    <button type="button" id="clear">Clear Canvas</button>
+    <header>Blocky Animal: Enderheimer</header>
+    <p></p>
+
+    <text id="stats"></text>
+
+    <!-- <p>
+    <button type="button" id="clear">Reset Canvas</button> -->
 
     <p>
     Animation: <button type="button" id="animateButton">ON</button>
     <button type="button" id="animateOffButton">OFF</button>
-    &nbsp; Speed <input type="range" min="1" max="20" value="3" class="samelineslider" id="moveSpeedSlide">
+    &nbsp; Speed <input type="range" min="1" max="20" value="7" class="samelineslider" id="moveSpeedSlide">
 
     <p>
     Arms <input type="range" min="0" max="100" value="0" class="slider" id="armsSlide">
 
+    <p>
+    Hands <input type="range" min="0" max="100" value="0" class="slider" id="handsSlide">
 
     <p>
     Rotation: X Axis<input type="range" min="0" max="360" value="0" class="slider" id="xRotateSlide">
@@ -71,8 +78,7 @@
     <script src="../lib/cuon-utils.js"></script>
     <script src="../lib/cuon-matrix-cse160.js"></script>
     <script src="Triangle.js"></script>
-    <script src="Point.js"></script>
-    <script src="Circle.js"></script>
+    <script src="Cylinder.js"></script>
     <script src="Cube.js"></script>
     <script src="BlockyAnimal.js"></script>
   </body>
